@@ -3,8 +3,10 @@ UML Class and Use-Case Diagrams to Solidity
 This app takes in Class and Use-Case XML files as input and coverts them to solidity code as well as display the UML diagram.
 
 **To use the App**
-- open the "dist" folder
-- then open the "App" folder
+- Download and Extract the "App.rar" file
+- Open "App" folder
+- Open the "dist" folder
+- Then open the "App" folder
 - Run the "App" executable : double click to open
 - feel free to expore and contact me for collaboration on how to improve this app
 
