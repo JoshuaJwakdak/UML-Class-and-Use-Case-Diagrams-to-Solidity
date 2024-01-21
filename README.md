@@ -9,8 +9,7 @@ This app takes in Class and Use-Case XML files as input and coverts them to soli
 -  pip install Jinja2
 -  pip install ttkthemes
 -  pip install graphviz
-  --you can use python -m pip install <package-name> if you face pip not recognized error  
-
+-  you can use python -m pip install <package-name> if you face pip not recognized error  
 
 
 **To use the App**
