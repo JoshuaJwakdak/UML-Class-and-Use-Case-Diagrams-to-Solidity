@@ -54,8 +54,8 @@ Make sure to use the correct image name and tag when running the container.
 
 **Note**
 
-    All the Xml files for testing is found in the docker container, 
-    when you run the app and after you have selected the option of which uml diagram to convert, 
-    a button appears which is browse file, it then  displays     the list of xml files. 
-    make sure to select appropraite xml file according to your initial option choice. 
-    They are categorized into class and use-case diagrams accordingly.
+All the Xml files for testing is found in the docker container, 
+when you run the app and after you have selected the option of which uml diagram to convert, 
+a button appears which is browse file, it then  displays     the list of xml files. 
+make sure to select appropraite xml file according to your initial option choice. 
+They are categorized into class and use-case diagrams accordingly.
