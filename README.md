@@ -21,9 +21,9 @@ Make sure Docker is installed on your machine. If not,
 download and install Docker from the official website: Docker Desktop.
 
 2.  Download UML-to-Solidity Docker Image:D
-Download the Docker image tarball (uml_to_solidity.tar) provided by the author.
+Download the Docker image tarball (uml_to_solidity.tar) provided.
 
-4.  Load Docker Image:
+3.  Load Docker Image:
 Open a terminal or command prompt and navigate to the directory containing the downloaded tarball.
 Run the following command to load the Docker image:
 
@@ -31,7 +31,7 @@ bash
 
         docker load -i uml_to_solidity.tar
 
-Run Docker Container:
+4. Run Docker Container:
 
 After loading the image, run the Docker container with the following command:
 
@@ -39,12 +39,12 @@ bash
 
         docker run -it uml-to-sol3:latest
 
-Replace uml-to-sol3:latest with the correct image name and tag obtained from the output of the docker images command.
+5. Replace uml-to-sol3:latest with the correct image name and tag obtained from the output of the docker images command.
 
-Use the UML-to-Solidity Application:
+6. Use the UML-to-Solidity Application:
 Once inside the Docker container, you can use the UML-to-Solidity application by running the image.
 
-Exit the Docker Container:
+7. Exit the Docker Container:
 When finished, exit the Docker container by typing exit in the terminal.
 
 
