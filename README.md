@@ -7,15 +7,18 @@ This app is a docker image as such, you have to run it in a docker container.
 **Additional Steps for X Server Support:**
 
     1.  Install X Server: https://sourceforge.net/projects/vcxsrv/
-        Before running the Docker container, ensure that you have an X server installed on your machine. For Windows, you can use Xming or VcXsrv. For Linux, you can use the default X server.
+        Before running the Docker container, ensure that you have an X server installed on your machine. 
+        For Windows, you can use Xming or VcXsrv. For Linux, you can use the default X server.
 
     2.  Configure X Server:
-        Start your X server (e.g., Xming or VcXsrv) before running the Docker container. Make sure it is configured to allow connections from localhost.
+        Start your X server (e.g., Xming or VcXsrv) before running the Docker container. 
+        Make sure it is configured to allow connections from localhost.
 
 **Installation Instructions for UML-to-Solidity Docker Image**
 
     1.  Install Docker: https://www.docker.com/products/docker-desktop/
-        Make sure Docker is installed on your machine. If not, download and install Docker from the official website: Docker Desktop.
+        Make sure Docker is installed on your machine. If not, 
+        download and install Docker from the official website: Docker Desktop.
 
     2.  Download UML-to-Solidity Docker Image:
         Download the Docker image tarball (uml_to_solidity.tar) provided by the author.
@@ -44,12 +47,14 @@ This app is a docker image as such, you have to run it in a docker container.
         Exit the Docker Container:
         When finished, exit the Docker container by typing exit in the terminal.
 
-**Notes:**
 
     Ensure Docker is running on your machine before attempting to load and run the Docker image.
     Make sure to use the correct image name and tag when running the container.
   
 
 **Note**
-All the Xml files for testing is found in the docker container, when you run the app and after you have selected the option of which uml diagram to convert, a button appears which is browse file, it then  displays the list of xml files. make sure to select appropraite xml file according to your initial option choice. 
-They are categorized into class and use-case diagrams accordingly.
+    All the Xml files for testing is found in the docker container, 
+    when you run the app and after you have selected the option of which uml diagram to convert, 
+    a button appears which is browse file, it then  displays     the list of xml files. 
+    make sure to select appropraite xml file according to your initial option choice. 
+    They are categorized into class and use-case diagrams accordingly.
